@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 5</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li class="nav-list-items">
+            <a class="nav-item" href="./index.html"> Home </a>
+          </li>
+          <li class="nav-list-items">
+            <a class="nav-item" href="./Assn5-q1-saurabPrasher.html">
+              Question 1
+            </a>
+          </li>
+          <li class="nav-list-items">
+            <a
+              aria-current="page"
+              class="nav-item"
+              href="./Assn5-q2-saurabPrasher.html"
+            >
+              Question 2
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <h1>Question 2</h1>
+      <p>
+        Display the weather max_temperature, min_tempreture and time of sunrise
+        and sunset for all “paris” cities.
+      </p>
+
+      <div class="loader">
+        <div class="lds-ring">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div class="output">
+        <div>
+          <h3 class="city-name"></h3>
+          <h4 class="country"></h4>
+          <p class="weather">Today's weather report</p>
+          <div class="weather-container">
+            <p class="weather-description"></p>
+            <img class="weather-icon" src="" alt="Weather Icon" />
+          </div>
+
+          <div class="weather-report">
+            <div>
+              <p>Temperature <span class="temp"></span></p>
+            </div>
+
+            <div>
+              <p>Feels like: <span class="feels-like"> </span></p>
+              <p>Max temp <span class="temp-max"></span></p>
+              <p>Min temp <span class="temp-min"></span></p>
+            </div>
+
+            <div>
+              <p>Sunrise <span class="sunrise"></span></p>
+              <p>Sunset <span class="sunset"></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="question2.js"></script>
+  </body>
+</html>
